@@ -1,14 +1,23 @@
 .container{
     width: 100%;
-    background-color: none;
+    background-color: rgb(107, 164, 238);
     padding: 10px;
-    background: none;
+    margin-top: -70px;
+    position: fixed;
+    margin-left: 70px;
+}
+.comic{
+    background: white;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
 .container .subcontainer{
     width: 800px;
     margin: 0 auto;
-    background: none;
-    background-color: none;
 }
 .container .subcontainer div{
     display: inline-block;
@@ -16,6 +25,7 @@
 }
 .logo{
     color: #fff;
+    margin-left: -10px;
     font-weight: bolder;
     font-size: 22px;
     width: 100px;
@@ -57,9 +67,12 @@
 .new-item-panel{
     width: 300px;
     margin: 20px auto;
-    background-color: rgb(223, 49, 49);
+    background-color: rgb(251, 251, 251);
     padding: 20px;
 }
 .new-item-panel p{
     padding: 5px 0;
+}
+.formulario{
+    margin-left: 10px;
 }

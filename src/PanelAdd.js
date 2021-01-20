@@ -36,14 +36,16 @@ class PanelAdd extends React.Component{
             <div className="new-item-panel-container">
                 <div className="new-item-panel">
                     <form onSubmit={this.onsubmit}>
-                        <p>
-                            <label>Titulo del Libro</label>
-                            <input onChange={this.onChangeTitle} type="text" name="title" className="input"></input>
-                        </p>
-                        <p>
-                            <label>Nombre de la Imagen</label>
-                            <input onChange={this.onChangeImage} type="text" name="image" className="input"></input>
-                        </p>
+                        <div className="formulario">
+                            <p>
+                                <label>Titulo del Libro</label>
+                                <input onChange={this.onChangeTitle} type="text" name="title" className="input"></input>
+                            </p>
+                            <p>
+                                <label>Nombre de la Imagen</label>
+                                <input onChange={this.onChangeImage} type="text" name="image" className="input"></input>
+                            </p>
+                        </div>
                         <p>
                         <label>Calificacion</label><br/>
                         <select onChange={this.onChangeRating}>

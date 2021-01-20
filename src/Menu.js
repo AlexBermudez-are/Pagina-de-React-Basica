@@ -16,6 +16,7 @@ class Menu extends React.Component{
     render(){
         return (
             <div className="container">
+                <img className="comic" src="/imagenes/comic.png"></img>
                 <div className="subcontainer">
                     <div className="logo">
                         {this.props.title}
