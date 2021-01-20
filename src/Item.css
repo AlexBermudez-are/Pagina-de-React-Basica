@@ -1,0 +1,58 @@
+.item{
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 37px;
+    width: 200px;
+    vertical-align: top;
+    background: none;
+}
+.item .image img{
+    height: 330px;
+    background: none;
+}
+
+.item .title{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    height: 60px;
+    background: none;
+}
+
+.item .actions{
+    background-color:transparent;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    background: none;
+}
+
+.item .actions button{
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+}
+
+.item .Rating{
+    background: none;
+    color: white;
+}
+
+.item .Rating .Stars {
+    background: none;
+}
+
+.item .Rating .Star {
+    background: none;
+    height: 40px;
+    width: 40px;
+}
+
+.item .Rating .Rate {
+    background: none;
+    color: white;
+}
